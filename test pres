@@ -1,0 +1,27 @@
+// JavaScript code for creating a PowerPoint presentation on Greenbox services
+
+// Create a new PowerPoint presentation
+var presentation = new PptxGenJS();
+
+// Slide 1
+var slide1 = presentation.addSlide();
+slide1.addText("Slide 1", { x: 1, y: 1, fontSize: 24 });
+
+// Slide 2
+var slide2 = presentation.addSlide();
+slide2.addText("Slide 2", { x: 1, y: 1, fontSize: 24 });
+
+// Slide 3
+var slide3 = presentation.addSlide();
+slide3.addText("Slide 3", { x: 1, y: 1, fontSize: 24 });
+
+// Slide 4
+var slide4 = presentation.addSlide();
+slide4.addText("Slide 4", { x: 1, y: 1, fontSize: 24 });
+
+// Slide 5
+var slide5 = presentation.addSlide();
+slide5.addText("Slide 5", { x: 1, y: 1, fontSize: 24 });
+
+// Export the presentation as a PPTX file
+presentation.writeFile("Greenbox_Presentation.pptx");
